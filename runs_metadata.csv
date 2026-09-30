@@ -1,0 +1,4 @@
+run_id,source_file,surface,mu_nominal,v0_kph,sample_rate_hz,duration_s,data_origin,vehicle,tyre,ambient_c,driver,test_date,context_origin
+run01,run01_splitmu.csv,split-mu,0.60,100,100,12,synthetic generator,C-segment hatchback,205/55 R16 summer,18.0,AP,2026-08-12,hand-written for the exercise
+run02,run02_dry.csv,dry,1.00,100,100,12,synthetic generator,C-segment hatchback,205/55 R16 summer,22.5,AP,2026-08-12,hand-written for the exercise
+run03,run03_wet.csv,wet,0.56,100,100,12,synthetic generator,C-segment hatchback,205/55 R16 summer,14.0,AP,2026-08-13,hand-written for the exercise

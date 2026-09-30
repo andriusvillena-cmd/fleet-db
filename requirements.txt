@@ -1,0 +1,7 @@
+# Everything the published tests need. SQLite ships with Python.
+pytest>=8.0
+
+# Only for test_db.py, which cross-checks the database against the real signal
+# CSVs. Those are not redistributed, so those tests skip without them and this
+# line is not needed in CI.
+# pandas>=2.0

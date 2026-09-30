@@ -1,0 +1,14 @@
+# The real signal captures are not redistributed.
+run0*.csv
+*.mf4
+*.mat
+
+# Generated: the demo runs are produced by make_demo_runs.py, and the database
+# is produced by build_db.py. Neither belongs in the repository.
+demo0*.csv
+demo_metadata.csv
+*.db
+*.db-journal
+
+__pycache__/
+.pytest_cache/
